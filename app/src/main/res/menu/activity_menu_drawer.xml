@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+       <!-- <item android:id="@+id/nav_camara" android:icon="@android:drawable/ic_menu_camera"
+            android:title="" />
+
+        <item android:id="@+id/nav_slideshow" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="" />
+        <item android:id="@+id/nav_manage" android:icon="@android:drawable/ic_menu_manage"
+            android:title="" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="" />
+            <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
+                android:title="" />
+        </menu>
+    </item>
+-->
+    <item android:id="@+id/vehicules" android:icon="@drawable/voiture"
+        android:title="Véhicules"  />
+        <item android:id="@+id/visites" android:icon="@drawable/iconchecklist"
+            android:title="Visites Technique" />
+        <item android:id="@+id/assurance" android:icon="@drawable/care"
+            android:title="Contrats d'assurance" />
+        <item android:id="@+id/maintenance" android:icon="@drawable/maintenance"
+            android:title="Maintenance" />
+        <item android:id="@+id/employe" android:icon="@drawable/maintenance"
+            android:title="Employes" />
+        <item android:id="@+id/carte" android:icon="@drawable/maintenance"
+            android:title="Cartes" />
+    </group>
+</menu>
